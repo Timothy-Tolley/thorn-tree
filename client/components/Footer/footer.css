@@ -1,0 +1,15 @@
+.footer-container {
+  font-size: 0.6rem;
+  text-align: center;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.footer-text {
+  text-justify: distribute;
+  padding: 10px;
+}
+
+.tim-link {
+  text-decoration: none;
+}

@@ -1,0 +1,24 @@
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  text-align: center;
+  width: 100%;
+}
+
+.contact-header {
+  padding: 20px;
+  font-size: 2rem;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  font-size: 1.5rem;
+}
+
+.email-link{
+  text-decoration: none;
+  padding: 20px;
+}
