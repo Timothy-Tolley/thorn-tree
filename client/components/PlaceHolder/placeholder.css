@@ -1,5 +1,5 @@
 .placeholder-container {
-  background-image:url('/images/texture.jpg');
+  background-image:image-url('/images/texture.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   top: 0px;
@@ -17,6 +17,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  height: 50%;
   width: 50%;
   align-self: center;
   background-color: rgba(64, 112, 100, 0.534);
