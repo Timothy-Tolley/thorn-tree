@@ -8,7 +8,7 @@ class Contact extends React.Component {
     return (
       <div className = 'contact-container'>
         <ScrollableAnchor id={'contact'}>
-          <h2 className = 'contact-header'> CONTACT </h2>
+          <h2 className = 'contact-header'> Contact </h2>
         </ScrollableAnchor>
         <div className = 'contact-form'>
           {/* contact form */}
