@@ -1,16 +1,16 @@
 import React from 'react'
 
-import './projects.css'
+import './projects-page.css'
 
 import Footer from '../Footer/Footer'
 import DetachedHead from '../DetachedHead/DetachedHead'
 
-class Projects extends React.Component {
+class ProjectsPage extends React.Component {
   render () {
     return (
-      <div className = 'projects-page'>
+      <div className = 'ProjectsPage-page'>
         <DetachedHead />
-        <div className = 'projects-container'>
+        <div className = 'ProjectsPage-container'>
         </div>
         <Footer/>
       </div>
@@ -18,4 +18,4 @@ class Projects extends React.Component {
   }
 }
 
-export default Projects
+export default ProjectsPage

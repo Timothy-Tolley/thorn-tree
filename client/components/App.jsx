@@ -2,7 +2,7 @@ import React from 'react'
 import {Route} from 'react-router-dom'
 
 import Home from './Home/Home'
-import Projects from './Projects/Projects'
+import Projects from './ProjectsPage/ProjectsPage'
 // import PlaceHolder from './PlaceHolder/PlaceHolder'
 
 class App extends React.Component {

@@ -1,0 +1,49 @@
+.project-scroll-container{ 
+  position: relative;
+  z-index: 10;  
+}
+
+.scroll-image {
+  width: 250px;
+}
+
+@media only screen and (max-width: 1200px) {
+  .scroll-image {
+    width: 650px;
+  }
+}
+
+
+@media only screen and (max-width: 750px) {
+  .scroll-image {
+    width: 500px;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .scroll-image {
+    width: 450px;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .scroll-image {
+    width: 400px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .scroll-image {
+    width: 300px;
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  .scroll-image {
+    width: 200px;
+  }
+}
+
+
+
+

@@ -1,0 +1,9 @@
+.color-u1-container{
+  background-color: #F8F8F8;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 500px;
+  z-index: 1;
+}
