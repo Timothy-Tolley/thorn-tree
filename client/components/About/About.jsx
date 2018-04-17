@@ -9,7 +9,7 @@ class About extends React.Component {
       <div className = 'about-container'>
         <div className = 'about-text'>
           <ScrollableAnchor id={'about'}>
-            <h1> About </h1>
+            <h2> About </h2>
           </ScrollableAnchor>
           <a href="/docs/" download="Chris-Tolley-Resumé" className = 'CV-link'>
             <p className = 'download-link'> Resumé </p>
