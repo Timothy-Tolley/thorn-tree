@@ -5,10 +5,19 @@ import './footer.css'
 class Footer extends React.Component {
   render () {
     return (
-      <div className = 'footer-container'>
-        <p className = 'footer-text'>
-          Created by <a className = 'tim-link' href = 'https://timothytolley.com'>Timothy Tolley</a>
+      <div className = 'footer-cont'>
+        <p className = 'footer-title'>
+          THORN TREE LTD
         </p>
+        <a className = 'footer-link' href = '/'>
+          HOME
+        </a>
+        <a className = 'footer-link' href = '/#about'>
+           ABOUT
+        </a>
+        <a className = 'footer-link' href = '/#contact'>
+           CONTACT
+        </a>
       </div>
     )
   }

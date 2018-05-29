@@ -1,12 +1,98 @@
-.projects-page{
+.projects-cont{
+  width: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  align-content: center;
+  justify-content: center;
 }
 
-.projects-container {
+.all-projects-cont {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-self: center;
+}
+
+.projects-header {
+  font-size: 22px;
+  letter-spacing: 0.75px;
+  width: 100%;
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.single-project-cont {
   width: 100%;
   display: flex;
   flex-direction: row;
+  align-content: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
 }
 
+.single-project-left {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+}
+
+.single-project-name {
+  width: 100%;
+  letter-spacing: 0.75px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.single-project-location {
+  width: 100%;
+  letter-spacing: 0.5px;
+  font-size: 16px;
+}
+
+.single-project-company {
+  width: 100%;
+  letter-spacing: 0.5px;
+  font-size: 16px;
+}
+
+.single-project-tagline {
+  width: 100%;
+  font-size: 18px;
+  color: #AAA6AD;
+}
+
+.single-project-description {
+  width: 100%;
+  font-size: 16px;
+  color: #545453;
+}
+
+.single-project-right {
+  width: 45%;
+}
+
+.single-project-img {
+  max-width: 100%;
+}
+
+@media (max-width: 900px) {
+  .single-project-cont {
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
+    align-content: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  .single-project-right {
+    width: 90%;
+  }
+  .single-project-left {
+    width: 90%;
+  }
+}

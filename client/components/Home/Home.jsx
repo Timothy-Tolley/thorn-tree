@@ -7,16 +7,14 @@ import About from '../About/About'
 import Header from '../Header/Header'
 import Footer from '../Footer/Footer'
 import Contact from '../Contact/Contact'
-import ColorU1 from '../ColorU1/ColorU1'
 import ProjectScroll from '../ProjectScroll/ProjectScroll'
 
 class Home extends React.Component {
   render () {
     return (
-      <div className = 'home-container'>
+      <div className = 'home-cont'>
         <Header />
         <ProjectScroll />
-        <ColorU1 />
         <About />
         <Team />
         <Contact />

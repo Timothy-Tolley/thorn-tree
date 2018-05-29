@@ -1,34 +1,74 @@
 import React from 'react'
 
-import data from '../../data/project-data'
-
 import './project-scroll.css'
+import {projects} from '../../data/project-data.js'
 
 class ProjectScroll extends React.Component {
   constructor (props) {
     super(props)
     this.state = {
-      imageIndex: 0
+      projectImages: projects.map(project => { return [project.image1, project.id, project.name, project.tagline] }),
+      currentIndex: 0
     }
-    this.handleClick = this.handleClick.bind(this)
+    this.nextImage = this.nextImage.bind(this)
+    this.previousImage = this.previousImage.bind(this)
   }
 
-  handleClick () {
-    if (this.state.imageIndex === 2) {
+  nextImage () {
+    if (this.state.currentIndex === this.state.projectImages.length - 1) {
       this.setState({
-        imageIndex: 0
+        ...this.state,
+        currentIndex: 0
       })
     } else {
       this.setState({
-        imageIndex: this.state.imageIndex + 1
+        ...this.state,
+        currentIndex: this.state.currentIndex + 1
       })
     }
   }
 
+  previousImage () {
+    if (this.state.currentIndex === 0) {
+      this.setState({
+        ...this.state,
+        currentIndex: this.state.projectImages.length - 1
+      })
+    } else {
+      this.setState({
+        ...this.state,
+        currentIndex: this.state.currentIndex - 1
+      })
+    }
+  }
   render () {
     return (
-      <div className = 'project-scroll-container'>
-        <img src = {data[this.state.imageIndex]} alt = 'padma bridge works' className = 'scroll-image' onClick = {this.handleClick}/>
+      <div className = 'project-scroll-cont'>
+        <a href={`/projects/#${this.state.projectImages[this.state.currentIndex][1]}`} className = 'scroll-image-link'>
+          <img src = {`${this.state.projectImages[this.state.currentIndex][0]}`} alt = 'Project Image' className = 'project-scroll-image'/>
+        </a>
+        <div className = 'scroll-info-cont'>
+          <div className = 'arrows-cont'>
+            <img src = '/images/left-arrow.png' className = 'arrow' onClick = {this.previousImage}/>
+            <p className = 'of-text'> {this.state.currentIndex + 1}  of {this.state.projectImages.length}
+            </p>
+            <img src = '/images/right-arrow.png' className = 'arrow' onClick = {this.nextImage}/>
+          </div>
+          <div className = 'project-tagline-cont'>
+            <p className = 'project-scroll-tagline'>
+              {
+                this.state.projectImages[this.state.currentIndex][3]
+              }
+            </p>
+          </div>
+          <div className = 'project-name-cont'>
+            <p className = 'project-scroll-name'>
+              {
+                this.state.projectImages[this.state.currentIndex][2]
+              }
+            </p>
+          </div>
+        </div>
       </div>
     )
   }

@@ -1,17 +1,23 @@
-.footer-container {
-  font-size: 0.6rem;
-  text-align: center;
+.footer-cont {
   width: 100%;
-  margin-top: 20px;
-  z-index: 10;
-  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-around;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
-.footer-text {
-  text-justify: distribute;
-  padding: 10px;
+.footer-title {
+  font-size: 12px;
+  text-align: center;
+  width: 25%;
 }
 
-.tim-link {
+.footer-link {
+  font-size: 12px;
   text-decoration: none;
+  text-align: center;
+  width: 25%;
+  color: #739F9F;
 }

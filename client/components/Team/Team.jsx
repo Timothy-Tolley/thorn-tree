@@ -3,16 +3,20 @@ import ScrollableAnchor from 'react-scrollable-anchor'
 
 import './team.css'
 
+import Chris from '../Chris/Chris'
+import Hilary from '../Hilary/Hilary'
+
 class Team extends React.Component {
   render () {
     return (
-      <div className = 'team-container'>
+      <div className = 'team-cont'>
         <ScrollableAnchor id={'team'}>
-          <h2 className = 'team-header'> Team </h2>
+          <p className = 'team-header'>
+          TEAM
+          </p>
         </ScrollableAnchor>
-        <p className = 'team-text'>
-
-        </p>
+        <Chris />
+        <Hilary />
       </div>
     )
   }
