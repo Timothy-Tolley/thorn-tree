@@ -63,8 +63,8 @@ export const projects = [{
     'As Engineer to the Adit Access Roads contract carried out assessment of claims and provided contractual advice to MWSDB and the site team.'
   ],
   description2: null,
-  image2: '/images/melamchi2.JPG',
-  image1: '/images/melamchi.JPG',
+  image2: '/images/mel2.JPG',
+  image1: '/images/mel.JPG',
   image2Desc: 'Melamchi Valley',
   id: '4'
 }, {
