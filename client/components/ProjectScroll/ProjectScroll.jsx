@@ -63,9 +63,11 @@ class ProjectScroll extends React.Component {
           </div>
           <div className = 'project-name-cont'>
             <p className = 'project-scroll-name'>
-              {
-                this.state.projectImages[this.state.currentIndex][2]
-              }
+              <a href={`/projects/#${this.state.projectImages[this.state.currentIndex][1]}`} className = 'project-scroll-name-link'>
+                {
+                  this.state.projectImages[this.state.currentIndex][2]
+                }
+              </a>
             </p>
           </div>
         </div>

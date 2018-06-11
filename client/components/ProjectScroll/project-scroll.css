@@ -65,6 +65,11 @@
   padding-left: 10px;
 }
 
+.project-scroll-name-link {
+  text-decoration: none;
+  color: #AAA6AD;
+}
+
 .project-tagline-cont {
   width: 100%;
 }
