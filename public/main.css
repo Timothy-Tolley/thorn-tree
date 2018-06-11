@@ -8,10 +8,7 @@ body {
   height: 100%;
   font-family: 'News Cycle', sans-serif;  
   background-color: #ffffff;
-  color: #739f9f;
-  font-size: 20px;
-  font-weight: 'light';
-
+  color: #739F9F;
 }
 
 .page {
@@ -20,4 +17,8 @@ body {
   display: flex;
   flex-direction: column;
   align-content: center;
+}
+
+.cv-link {
+  color: #739F9F;
 }
