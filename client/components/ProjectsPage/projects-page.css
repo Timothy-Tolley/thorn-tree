@@ -30,7 +30,7 @@
   flex-direction: row;
   align-content: center;
   justify-content: space-between;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .single-project-left {
@@ -74,10 +74,17 @@
 
 .single-project-right {
   width: 45%;
+  padding-top: 20px;
 }
 
 .single-project-img {
   max-width: 100%;
+}
+
+.project-img-desc {
+  font-size: 18px;
+  color: #AAA6AD;
+  margin-top: 4px;
 }
 
 @media (max-width: 900px) {
@@ -91,8 +98,13 @@
   }
   .single-project-right {
     width: 90%;
+    padding-top: 0px;
   }
   .single-project-left {
     width: 90%;
   }
+  .project-img-desc {
+    display: none;
+  }
+  
 }

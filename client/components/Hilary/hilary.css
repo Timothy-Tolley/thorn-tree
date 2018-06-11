@@ -28,9 +28,10 @@
 }
 
 .hilary-img {
-  width: 100%;
+  max-width: 100%;
   margin-bottom: 5px;
   margin-top: 5px;
+  content: url('/images/Hilary-portrait.jpg');
 }
 
 .hilary-sec-header {
@@ -52,6 +53,10 @@
   letter-spacing: 0.75px;
   width: 100%;
   text-align: left;
+  margin-left: 5%;
+}
+
+.hil-cv-link-cont {
   margin-left: 5%;
 }
 
@@ -82,6 +87,7 @@
     margin-bottom: 5px;
     margin-top: 5px;
     align-self: center;
+    content: url('/images/Hilary-landscape.jpg');
   }
   
   .hilary-sec-header {
@@ -141,6 +147,7 @@
     width: 100%;
     margin-bottom: 5px;
     margin-top: 5px;
+    content: url('/images/Hilary-landscape.jpg');
   }
   
   .hilary-sec-header {

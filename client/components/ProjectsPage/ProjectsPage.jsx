@@ -45,9 +45,24 @@ class Projects extends React.Component {
                   <p className = 'single-project-description'>
                     {project.description}
                   </p>
+                  <ul>
+                    {project.descriptionList && project.descriptionList.map((listItem, idx) => {
+                      return (
+                        <li key = {idx}>
+                          {listItem}
+                        </li>
+                      )
+                    })}
+                  </ul>
+                  {project.description2 && <p className = 'single-project-description'>
+                    {project.description2} </p>
+                  }
                 </div>
                 <div className = 'single-project-right'>
-                  <img src = {project.image1} alt = {project.name} className = 'single-project-img'/>
+                  <img src = {project.image2} alt = {project.name} className = 'single-project-img'/>
+                  <p className = 'project-img-desc'>
+                    {project.image2Desc}
+                  </p>
                 </div>
               </div>
             )

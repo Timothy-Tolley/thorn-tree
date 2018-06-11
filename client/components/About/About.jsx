@@ -17,16 +17,31 @@ class About extends React.Component {
           </p>
         </ScrollableAnchor>
         <div className = 'about-text-cont'>
-          <img src = '/images/texture.jpg' alt = 'texture' className = 'about-img-large'/>
-          <p className = 'about-highlight'>
-          &#39;Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.&#39;
-          </p>
-          <p className = 'about-text'>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-            <img src = '/images/texture.jpg' alt = 'texture' className = 'about-img'/>
-          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-          </p>
+          <div className = 'containment-div-left'>
+            <div className = 'photo-blurb-cont'>
+              <img src = '/images/cambodia.jpg' alt = 'Cambodia Road Rehabilitation' className = 'about-img-large'/>
+              <p className = 'img-content-large'>
+            Northwestern Rural Development Project Cambodia - Road Rehabilitation
+              </p>
+            </div>
+            <div className = 'photo-blurb-cont'>
+              <img src = '/images/vanuatu.jpg' alt = 'Vanuatu Roading Project' className = 'about-img-large'/>
+              <p className = 'img-content-large'>
+              MCC Vanuatu Transport Infrastructure Project - Civil Works
+              </p>
+            </div>
+          </div>
+          <div className = 'containment-div-right'>
+            <p className = 'about-highlight'>
+             &#39;Thorn Tree is a small consulting company focussed on providing support services to the International Development sector.&#39;
+            </p>
+            <p className = 'about-text'>
+             Chris and Hilary Tolley, the Directors of Thorn Tree, have lived and worked in developing countries in Africa, Asia and the Pacific for the past 35 years, and have developed a wealth of experience that is applied to the services they provide.
+              <img src = '/images/cambodia.jpg' alt = 'Cambodia Road Rehabilitation' className = 'about-img'/>
+              <img src = '/images/nepal.jpg' alt = 'texture' className = 'about-img'/>
+            Chris’s civil engineering background has led him to specialise in the procurement of goods, works and services in the transportation, water and power sectors; in particular on behalf of international financing institutions, such as the World Bank and Asian Development Bank. Hilary’s education background, and more latterly population health experience, allows her to offer research services in these areas, often related to issues affecting the peoples of the Pacific Island countries and territories.
+            </p>
+          </div>
         </div>
       </div>
     )
