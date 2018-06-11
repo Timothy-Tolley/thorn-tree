@@ -31,6 +31,7 @@
   max-width: 100%;
   margin-bottom: 5px;
   margin-top: 5px;
+
   content: url('/images/hilary-portrait.jpg');
 }
 
@@ -87,6 +88,7 @@
     margin-bottom: 5px;
     margin-top: 5px;
     align-self: center;
+
     content: url('/images/hilary-landscape.jpg');
   }
   
@@ -147,6 +149,7 @@
     width: 100%;
     margin-bottom: 5px;
     margin-top: 5px;
+    
     content: url('/images/hilary-landscape.jpg');
   }
   

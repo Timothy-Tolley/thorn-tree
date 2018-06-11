@@ -29,6 +29,7 @@
 .chris-img {
   max-width: 100%;
   margin-top: 10%;
+  
   content: url('/images/chris-portrait.jpg');
 }
 
@@ -82,6 +83,7 @@
     width: 100%;
     margin-bottom: 5px;
     margin-top: 5px;
+
     content: url('/images/chris-landscape.jpg');
   }
   
@@ -136,6 +138,7 @@
     width: 100%;
     margin-bottom: 5px;
     margin-top: 5px;
+
     content: url('/images/chris-landscape.jpg');
   }
   
