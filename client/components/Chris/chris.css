@@ -29,8 +29,7 @@
 .chris-img {
   max-width: 100%;
   margin-top: 10%;
-  
-  content: url('/images/chris-portrait.jpg');
+  content: url('/images/chris-p.jpg');
 }
 
 .chris-sec-header {
@@ -83,8 +82,7 @@
     width: 100%;
     margin-bottom: 5px;
     margin-top: 5px;
-
-    content: url('/images/chris-landscape.jpg');
+    content: url('/images/chris-l.jpg');
   }
   
   .chris-sec-header {
@@ -138,8 +136,7 @@
     width: 100%;
     margin-bottom: 5px;
     margin-top: 5px;
-
-    content: url('/images/chris-landscape.jpg');
+    content: url('/images/chris-l.jpg');
   }
   
   .chris-sec-header {
