@@ -19,13 +19,13 @@ class About extends React.Component {
         <div className = 'about-text-cont'>
           <div className = 'containment-div-left'>
             <div className = 'photo-blurb-cont'>
-              <img src = '/images/cambodia.jpg' alt = 'Cambodia Road Rehabilitation' className = 'about-img-large'/>
+              <img src = '/images/cambodia.JPG' alt = 'Cambodia Road Rehabilitation' className = 'about-img-large'/>
               <p className = 'img-content-large'>
             Northwestern Rural Development Project Cambodia - Road Rehabilitation
               </p>
             </div>
             <div className = 'photo-blurb-cont'>
-              <img src = '/images/vanuatu.jpg' alt = 'Vanuatu Roading Project' className = 'about-img-large'/>
+              <img src = '/images/vanuatu.JPG' alt = 'Vanuatu Roading Project' className = 'about-img-large'/>
               <p className = 'img-content-large'>
               MCC Vanuatu Transport Infrastructure Project - Civil Works
               </p>
@@ -37,8 +37,8 @@ class About extends React.Component {
             </p>
             <p className = 'about-text'>
              Chris and Hilary Tolley, the Directors of Thorn Tree, have lived and worked in developing countries in Africa, Asia and the Pacific for the past 35 years, and have developed a wealth of experience that is applied to the services they provide.
-              <img src = '/images/cambodia.jpg' alt = 'Cambodia Road Rehabilitation' className = 'about-img'/>
-              <img src = '/images/nepal.jpg' alt = 'texture' className = 'about-img'/>
+              <img src = '/images/cambodia.JPG' alt = 'Cambodia Road Rehabilitation' className = 'about-img'/>
+              <img src = '/images/nepal.JPG' alt = 'texture' className = 'about-img'/>
             Chris’s civil engineering background has led him to specialise in the procurement of goods, works and services in the transportation, water and power sectors; in particular on behalf of international financing institutions, such as the World Bank and Asian Development Bank. Hilary’s education background, and more latterly population health experience, allows her to offer research services in these areas, often related to issues affecting the peoples of the Pacific Island countries and territories.
             </p>
           </div>
