@@ -1,6 +1,6 @@
 export const projects = [{
-  name: 'Asian Development Bank TA-9154 AZE: Railway Sector Development Program',
-  tagline: 'Technical advisor to AZE Railways for procurement of works and services',
+  name: 'Asian Development Bank TA-9154 aze: Railway Sector Development Program',
+  tagline: 'Technical advisor to aze Railways for procurement of works and services',
   location: 'Baku, Azerbaijan',
   timeframe: 'April 2018 to date',
   company: 'Azerbaijan Railways CJSC',
@@ -11,8 +11,8 @@ export const projects = [{
     'Provided advice and support during bid process for works and services including responding to questions from bidders, pre-bid meetings and site visits, evaluation of bids and proposals, and drafting of contracts.'
   ],
   description2: null,
-  image2: '/images/AZE2.JPG',
-  image1: '/images/AZE.JPG',
+  image2: '/images/aze2.jpg',
+  image1: '/images/aze.jpg',
   image2Desc: 'AZE Railway Sleeper Fabrication',
   id: '1'
 }, {
@@ -28,8 +28,8 @@ export const projects = [{
     'Support the Development / Updating of Procurement Support tools and Reporting.'
   ],
   description2: null,
-  image2: '/images/Tuvalu2.JPG',
-  image1: '/images/Tuvalu.JPG',
+  image2: '/images/Tuvalu2.jpg',
+  image1: '/images/Tuvalu.jpg',
   image2Desc: 'PAIP Tuvalu Reclaiming Borrow Pit',
   id: '2'
 }, {
@@ -46,7 +46,7 @@ export const projects = [{
     'Senior Contract Specialist responsible for evaluation of claims submitted by the Main Bridge (MB-01) and River Training Works (RTW-01) Contractors’; preparation of draft Variation Orders for both contracts; and assisting KEC, Engineer and Employer with contractual advice in relation to engineering decisions.'
   ],
   description2: null,
-  image2: '/images/padma2.JPG',
+  image2: '/images/padma2.jpg',
   image1: '/images/padma1.jpg',
   image2Desc: 'Padma Bridge - Rolling Tubular Steel Piles',
   id: '3'
@@ -63,8 +63,8 @@ export const projects = [{
     'As Engineer to the Adit Access Roads contract carried out assessment of claims and provided contractual advice to MWSDB and the site team.'
   ],
   description2: null,
-  image2: '/images/mel2.JPG',
-  image1: '/images/mel.JPG',
+  image2: '/images/mel2.jpg',
+  image1: '/images/mel.jpg',
   image2Desc: 'Melamchi Valley',
   id: '4'
 }, {
@@ -80,8 +80,8 @@ export const projects = [{
     'Construction of a complete new Airport Rescue Fire Fighting building including procurement of two Cat 6 fire trucks.'
   ],
   description2: 'As Principal Adviser (Procurement) during Phase 2 was responsible for finalising contract documents for all three works contracts based on the NZS3910:2003 Conditions of Contract. As Engineer to the Contract was responsible for the supervision of the works through the site based Engineer’s Representative and dealing with all contractual matters.',
-  image2: '/images/Munda2.JPG',
-  image1: '/images/Munda.JPG',
+  image2: '/images/Munda2.jpg',
+  image1: '/images/Munda.jpg',
   image2Desc: 'Munda Airport Unexploded Ordnance',
   id: '5'
 }
