@@ -1,13 +1,9 @@
 import React from 'react'
-import ScrollableAnchor, {configureAnchors} from 'react-scrollable-anchor'
+import ScrollableAnchor from 'react-scrollable-anchor'
 
 import './about.css'
 
 class About extends React.Component {
-  componentWillMount () {
-    configureAnchors({})
-  }
-
   render () {
     return (
       <div className = 'about-cont'>

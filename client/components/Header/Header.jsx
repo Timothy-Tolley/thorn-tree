@@ -1,6 +1,5 @@
 import React from 'react'
 import {CSSTransition} from 'react-transition-group'
-import {configureAnchors} from 'react-scrollable-anchor'
 
 import './header.css'
 
@@ -11,10 +10,6 @@ class Header extends React.Component {
       showMobileDropdown: false
     }
     this.toggleDropdown = this.toggleDropdown.bind(this)
-  }
-
-  componentWillMount () {
-    configureAnchors({})
   }
 
   toggleDropdown () {
