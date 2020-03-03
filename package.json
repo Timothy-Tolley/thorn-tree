@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node server/index.js",
     "build": "webpack --config ./client/webpack.config.js",
-    "dev": "nodemon --watch server/index.js & yarn build --watch",
+    "dev": "nodemon --watch server/index.js & npm run build --watch",
     "test": "jest --watch --noStackTrace",
     "postinstall": "webpack --config ./client/webpack.config.js"
   },

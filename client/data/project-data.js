@@ -84,6 +84,28 @@ export const projects = [{
   image1: '/images/Munda.jpg',
   image2Desc: 'Munda Airport Unexploded Ordnance',
   id: '5'
+}, {
+  name: 'Pacific Renewable Energy Investment Facility (formerly Pacific Renewable Energy Investment Program)',
+  tagline: 'Procurement Specialist responsible for the preparation of bid documents and evaluation of bids for a solar PV project comprising a 6MW solar farm and 2.5MWh/5MW Battery Energy Storage System (BESS).',
+  location: 'Nauru',
+  timeframe: ' June 2018 - ongoing',
+  company: 'GHD New Zealand Ltd. for the Asian Development Bank',
+  description: 'The scope of works for this project is to determine the power demand in 2020, determine what level of solar will provide 50% renewable penetration and provide a plan to achieve this. Responsibilities include:',
+  descriptionList: [
+    'Conducting a project procurement risk assessment (PPRA);',
+    'Preparing bid documents for geotechnical and topographical survey investigations;',
+    'Developing cost estimates for input to financial analysis and Levelised Cost of Energy (LCOE);',
+    'Preparing Project Procurement Plan;',
+    'Provided inputs to Report and Recommendation to the President (RRP) and Project Administration Manual (PAM);',
+    'Preparing Bidding Documents for the procurement of the proposed Solar PV system;',
+    'Providing formal and on-the-job training to NUC on ADB procurement principles, guidelines and practices; and',
+    'Providing advice and support to NUC during bid process for works including responding to questions from bidders, facilitating pre-bid meetings and site visits, evaluation of bids and proposals, and drafting of contracts.'
+  ],
+  description2: null, 
+  image2: '/images/nauru-port.jpg',
+  image1: '/images/nauru-solar-pv-2.jpg',
+  image2Desc: 'Nauru Solar PV',
+  id: '6'
 }
 // , {
 //   name: '',
