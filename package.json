@@ -40,7 +40,7 @@
     "body-parser": "^1.18.3",
     "css-loader": "^0.28.10",
     "dotenv": "^5.0.0",
-    "express": "^4.16.2",
+    "express": "^4.17.3",
     "node-sass": "^4.9.3",
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
